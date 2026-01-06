@@ -254,12 +254,6 @@ def task_do_test(dataset_names, model_name, data_tag, methods, seed, language, p
         test_features = features["test_features"]
         ood_features = features["ood_features"]
 
-        idx_test = np.random.choice(len(test_features), size=min(900, len(test_features)), replace=False)
-        idx_ood = np.random.choice(len(ood_features), size=min(300, len(ood_features)), replace=False)
-
-        test_features = test_features[idx_test]
-        ood_features = ood_features[idx_ood]
-
         print(f"Train features size: {train_features.shape[0]}")
         print(f"Validation features size: {test_features.shape[0]}")
         print(f"OOD features size: {ood_features.shape[0]}")
