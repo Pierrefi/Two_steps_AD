@@ -29,7 +29,7 @@ However, the **geometric structure of embedding spaces**—notably their anisotr
 
 We evaluate our approach on a reformulation of **MTEB classification tasks** into anomaly detection problems.
 
-- Multiple embedding models (e.g., E5, Qwen3, LLaMA)
+- Multiple embedding models (XLM-RoBERTa-base, E5, Qwen3-Embeddings, Qwen3, LLaMA)
 - Several anomaly detection methods:
   - KNN
   - LOF
