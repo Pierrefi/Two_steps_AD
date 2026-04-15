@@ -19,12 +19,9 @@ However, the **geometric structure of embedding spaces**—notably their anisotr
 
 ### Key contributions
 
-- We highlight the importance of **similarity-trained embedding models** for anomaly detection
-- We show that their **geometric properties** are better aligned with distance-based detectors
-- We demonstrate that a simple **post-processing step (whitening)** can:
-  - reduce anisotropy
-  - significantly improve performance
-  - homogenize results across detection algorithms
+- We adapt diverse classification datasets from the MTEB benchmark for anomaly detection, enabling **large-scale multilingual and multi-domain evaluation**.
+- We demonstrate the comparative advantage of **similarity-trained embedding models** for anomaly detection, linking it to geometric properties beneficial to detection algorithms.
+- We demonstrate that a simple **post-processing step** can seemingly adapt embeddings to be used with most detection algorithms, greatly smoothing their variance in performance.
 
 ---
 
