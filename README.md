@@ -7,7 +7,7 @@ Pierre Fihey, Matthieu Labeau, Pavlo Mozharovskyi
 
 ---
 
-## 🧠 Overview
+## Overview
 
 Anomaly detection aims to distinguish between **in-distribution (ID)** samples and **out-of-distribution (OOD)** samples.
 
